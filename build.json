@@ -1,13 +1,12 @@
 {
     "ios": {
         "debug": {
-            "buildFlag": [
-                "-quiet"
-            ]
+            "buildFlag": []
         },
         "release": {
             "buildFlag": [
-                "-quiet"
+                "-quiet",
+                "test"
             ]
         }
     }
